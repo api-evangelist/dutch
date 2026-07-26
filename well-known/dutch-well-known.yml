@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://dutch.com/.well-known/*
+host: https://dutch.com
+notes: >-
+  dutch.com is served on Shopify. The two 200 documents below are Shopify's
+  storefront Customer Account OAuth/OIDC discovery documents (issuer
+  https://shopify.com/authentication/53527380144), exposed under the store's
+  own host. They advertise a customer-account-mcp-api scope. No first-party
+  Dutch developer/API well-known surface was found.
+documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: dutch-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: dutch-oauth-authorization-server.json
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301

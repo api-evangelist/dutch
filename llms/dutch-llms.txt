@@ -1,0 +1,28 @@
+# Dutch
+
+> Dutch (dutch.com) is a US pet telemedicine service offering 24/7 online veterinary care for dogs and cats via membership (from ~$11/mo), with free prescription delivery to most states. Backed by Forerunner Ventures. This is a consumer telehealth storefront (Shopify-hosted); no first-party public developer API was found at the time of profiling.
+
+## Company
+- [Dutch — Online Vet Care and Rx for Dogs & Cats](https://www.dutch.com/): Homepage
+- [How It Works](https://www.dutch.com/pages/how-it-works): How the online vet care and prescription flow works
+- [Our Story](https://www.dutch.com/pages/our-story): Company background — bringing telemedicine to pet healthcare
+- [Membership Plans / Pricing](https://www.dutch.com/pages/membership-plans): Plans and pricing
+- [Reviews](https://www.dutch.com/pages/reviews): Customer reviews
+- [Blog](https://www.dutch.com/blogs): Pet health articles
+
+## Account
+- [Sign In](https://www.dutch.com/account/login): Member login
+- [Create Account](https://www.dutch.com/account/register): Sign up
+
+## Support
+- [Help Center](https://dutch-pet.zendesk.com/hc/en-us): Zendesk-hosted help center and contact
+
+## Policies
+- [Terms of Service](https://www.dutch.com/policies/terms-of-service)
+- [Privacy Policy](https://www.dutch.com/policies/privacy-policy)
+- [Refund Policy](https://www.dutch.com/policies/refund-policy)
+- [Shipping Policy](https://www.dutch.com/policies/shipping-policy)
+
+## Platform / Discovery
+- [OpenID Configuration](https://dutch.com/.well-known/openid-configuration): Shopify Customer Account OIDC discovery (issuer shopify.com/authentication/53527380144)
+- [OAuth Authorization Server](https://dutch.com/.well-known/oauth-authorization-server): Shopify Customer Account OAuth metadata; advertises openid, email, customer-account-api and customer-account-mcp-api scopes
