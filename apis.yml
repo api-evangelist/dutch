@@ -11,6 +11,17 @@ description: >-
   OpenAPI, or SDK surface was found. This API Evangelist profile captures the
   company's real, published web surface (identity, policies, account, support)
   and the live platform-level discovery documents exposed on the domain.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
